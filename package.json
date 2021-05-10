@@ -1,0 +1,29 @@
+{
+  "name": "async-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "oz compile && mocha --exit --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyncart/async-contracts.git"
+  },
+  "author": "Asynchronous Art, Inc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asyncart/async-contracts/issues"
+  },
+  "homepage": "https://github.com/asyncart/async-contracts#readme",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts-ethereum-package": "^2.5.0",
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "dotenv": "^8.2.0",
+    "truffle-flattener": "^1.4.4"
+  }
+}
